@@ -8,9 +8,19 @@ fun main(args: Array<String>){
 
 //    alex.printUser()
 
-    val john = User("John", "Doe")
-    println(john.firstName)
-    println(john.secondName)
-
+//    val john = User("John", "Doe")
+//    println(john.firstName)
+//    println(john.secondName)
+//
     val peter = User()
+//    val bob = User("Bob")
+//    println(peter.firstName)
+//    println(peter.secondName)
+//    println(bob.firstName)
+//    println(bob.secondName)
+
+    alex.login = "Codi"
+    println(alex.login)
+    peter.login
+
 }
